@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirebaseAuth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Firebase Authentication</h1>
+    <div id="signup">
+        <h3>Registro</h3>
+        <form id="signup-form">
+          <div>
+            <label for="signup-email">Email: </label>
+            <input type="text" id="signup-email" name="signup-email">
+          </div>
+          <div>
+            <label for="signup-user">User name: </label>
+            <input type="text" id="signup-user" name="signup-user">
+          </div>
+          <div>
+            <label for="signup-pass">Password: </label>
+            <input type="password" id="signup-pass" name="signup-pass">
+          </div>
+          <div>
+            <label for="signup-picture">Picture: </label>
+            <input type="file" id="signup-picture" accept="image/*" name="signup-picture">
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <div id="login">
+        <h3>Login</h3>
+        <form id="login-form">
+          <div>
+            <label for="login-email">Email: </label>
+            <input type="text" id="login-email" name="login-email">
+          </div>
+          <div >
+            <label for="login-pass">Password: </label>
+            <input type="password" id="login-pass" name="login-pass">
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <p id="msgerr"></p>
+      </div>
+      <div id="logout-container">
+        <button id="logout">Logout</button>
+      </div>
+
+      
+      <div id="user-data"></div>
+    
+
+      <script src="script.js" type="module"></script>
+</body>
+</html>
