@@ -8,7 +8,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstati
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-//Copy your firebase configuration
+//Paste your Firebase configuration
 };
 
 // Initialize Firebase
